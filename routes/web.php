@@ -27,3 +27,8 @@ Route::get('/user/{id}/{name?}', function ($id, $name="ING") {
 
 Route::get('/hello', 'HelloController@hello');
 Route::get('/add', 'CrudController@index');
+
+Route::view('/aboutus', 'about');
+Route::view('/contactus', 'contact');
+
+Route::get('/about', ['uses' => 'AboutController@about', 'as' => 'about']);
