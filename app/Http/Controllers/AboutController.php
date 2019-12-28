@@ -11,6 +11,6 @@ class AboutController extends Controller
    	
    	$fname = 'I Nyoman';
    	$lname = 'Gurnitha';
-   	return view('about', compact('fname', 'lname'));
+   	return view('front.layout.master', compact('fname', 'lname'));
    }
 }
