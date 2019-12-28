@@ -13,6 +13,7 @@
 
 Route::get('/', 'HomePageController@index');
 Route::get('/listing', 'ListingPageController@index');
+Route::get('/details', 'DetailsPageController@index');
 
 // Route::get('/helloworld', function () {
 //     return ('Hello world!');
