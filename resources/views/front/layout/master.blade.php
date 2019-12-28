@@ -15,15 +15,15 @@
          <div class="uc-mobile-menu-pusher">
             <div class="content-wrapper">
 
-               @include('front/layout/header')
+               @include('front.layout.header')
                <!-- header_section_wrapper -->
                
                @yield('content')
 
                <!-- Video News Section -->
-               @include('front/layout/subscribtion')
+               @include('front.layout.subscribtion')
                <!-- Subscriber Section -->
-               @include('front/layout/footer')
+               @include('front.layout.footer')
             </div>
             <!-- #content-wrapper -->
          </div>
