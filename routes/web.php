@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function () {
+Route::get('/helloworld', function () {
     return ('Hello world!');
 });
 
@@ -24,3 +24,6 @@ Route::get('/hello', function () {
 Route::get('/user/{id}/{name?}', function ($id, $name="ING") {
     return 'Your id is ' . $id . " and your name is " .$name;
 })->where('id', '[0-9]+');
+
+Route::get('/hello', 'HelloController@hello');
+Route::get('/add', 'CrudController@index');

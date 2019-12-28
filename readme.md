@@ -57,3 +57,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Section 2: Controller And View In Action
+
+9. Introduction to Route Part 1
+10. Introduction to Route Part 2
+11. Introduction to Controller
+	> php artisan make:controller HelloController
+	> php artisan make:controller CrudController --resource
+12. Introduction to View
+
