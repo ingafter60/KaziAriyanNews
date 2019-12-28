@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/hello', function () {
+    return ('Hello world!');
+});
+
+// http://localhost:81/KaziAriyanNews/user/777
+// Your id is 777 and your name is ING
+Route::get('/user/{id}/{name?}', function ($id, $name="ING") {
+    return 'Your id is ' . $id . " and your name is " .$name;
+})->where('id', '[0-9]+');
