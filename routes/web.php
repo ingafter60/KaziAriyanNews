@@ -10,10 +10,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+# Frontend routes
 Route::get('/', 'HomePageController@index');
 Route::get('/listing', 'ListingPageController@index');
 Route::get('/details', 'DetailsPageController@index');
+
+# Backend routes
+Route::group(['prefix'=> 'admin'], function(){
+	Route::get('/', 'Admin\DashboardController@index');
+});
 
 // Route::get('/helloworld', function () {
 //     return ('Hello world!');
