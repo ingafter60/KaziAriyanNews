@@ -19,6 +19,7 @@ Route::get('/details', 'DetailsPageController@index');
 Route::group(['prefix'=> 'admin'], function(){
 	Route::get('/', 'Admin\DashboardController@index');
 	Route::get('/category', 'Admin\CategoryController@index');
+	Route::get('/category/create', 'Admin\CategoryController@create');
 });
 
 // Route::get('/helloworld', function () {
