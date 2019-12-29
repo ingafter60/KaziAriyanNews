@@ -73,6 +73,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 	> install: composer require intervention/image
 	> add this to confit/app.php (providers): Intervention\Image\ImageServiceProvider::class
 	> add this to confit/app.php (aliases): 'Image' => Intervention\Image\Facades\Image::class
+25. CK Editor Installation
+	> link: https://unisharp.github.io/laravel-filemanager/installation
+	> follow the instructions
 
 
 

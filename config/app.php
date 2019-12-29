@@ -146,10 +146,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        // new from intervention image
-        Intervention\Image\ImageServiceProvider::class
 
-        /*
          * Package Service Providers...
          */
 
@@ -161,7 +158,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // new from intervention image
+        Intervention\Image\ImageServiceProvider::class,
+        UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
+        Unisharp\Ckeditor\ServiceProvider::class,
+        /*
     ],
 
     /*
