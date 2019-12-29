@@ -68,14 +68,22 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 12. Introduction to View
 
 ## Section 5: Essential Package Installation
+
 24. Image Intervention Installation
 	> link: http://image.intervention.io/getting_started/installation
 	> install: composer require intervention/image
 	> add this to confit/app.php (providers): Intervention\Image\ImageServiceProvider::class
 	> add this to confit/app.php (aliases): 'Image' => Intervention\Image\Facades\Image::class
-25. CK Editor Installation
-	> link: https://unisharp.github.io/laravel-filemanager/installation
+
+25. CK Editor Installation + Laravel File Manager
+	> LFM link: https://unisharp.github.io/laravel-filemanager/installation
 	> follow the instructions
+	> CKeditor link: https://github.com/UniSharp/laravel-ckeditor
+	> follow the instructions
+
+26. Laravel Collective Installation and Usage	
+	> LC link: https://laravelcollective.com/docs/5.4/html
+	> composer require "laravelcollective/html":"^5.4.0"
 
 
 
