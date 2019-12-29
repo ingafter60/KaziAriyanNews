@@ -67,3 +67,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 	> php artisan make:controller CrudController --resource
 12. Introduction to View
 
+## Section 5: Essential Package Installation
+24. Image Intervention Installation
+	> link: http://image.intervention.io/getting_started/installation
+	> install: composer require intervention/image
+	> add this to confit/app.php (providers): Intervention\Image\ImageServiceProvider::class
+	> add this to confit/app.php (aliases): 'Image' => Intervention\Image\Facades\Image::class
+
+
+
