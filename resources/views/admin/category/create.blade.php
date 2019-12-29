@@ -6,7 +6,7 @@
   <div class="col-md-12">
   <div class="card">
       <div class="card-header">
-          <strong class="card-title">Credit Card</strong>
+          <strong class="card-title">Create Page</strong>
       </div>
       <div class="card-body">
         <!-- Credit Card -->

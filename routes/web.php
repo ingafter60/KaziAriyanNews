@@ -20,6 +20,7 @@ Route::group(['prefix'=> 'admin'], function(){
 	Route::get('/', 'Admin\DashboardController@index');
 	Route::get('/category', 'Admin\CategoryController@index');
 	Route::get('/category/create', 'Admin\CategoryController@create');
+	Route::get('/category/edit', 'Admin\CategoryController@edit');
 });
 
 // Route::get('/helloworld', function () {
