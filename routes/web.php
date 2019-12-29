@@ -18,6 +18,7 @@ Route::get('/details', 'DetailsPageController@index');
 # Backend routes
 Route::group(['prefix'=> 'admin'], function(){
 	Route::get('/', 'Admin\DashboardController@index');
+	Route::get('/category', 'Admin\CategoryController@index');
 });
 
 // Route::get('/helloworld', function () {
